@@ -1,5 +1,5 @@
-import * as fs from 'fs-extra';
-import * as path from 'path';
+import fs from 'fs-extra';
+import path from 'path';
 import { BUILD_TOOLS, IS_DRY_RUN, OFFLINE_PATH, PYTHON } from './constants';
 import { error, log } from './logging';
 import { getBuildToolsInstallerPath } from './utils/get-build-tools-installer-path';

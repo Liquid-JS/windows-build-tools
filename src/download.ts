@@ -1,4 +1,4 @@
-import * as nugget from 'nugget';
+import nugget from 'nugget';
 
 import chalk from 'chalk';
 import { IS_BUILD_TOOLS_INSTALLED, IS_DRY_RUN, IS_PYTHON_INSTALLED } from './constants';

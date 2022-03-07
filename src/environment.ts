@@ -1,5 +1,5 @@
 import chalk from 'chalk';
-import * as path from 'path';
+import path from 'path';
 
 import { BUILD_TOOLS, IS_DRY_RUN } from './constants';
 import { InstallationDetails } from './interfaces';

@@ -1,6 +1,6 @@
-import * as fs from 'fs-extra';
+import fs from 'fs-extra';
 import { tmpdir } from 'os';
-import * as path from 'path';
+import path from 'path';
 
 const debug = require('debug')('windows-build-tools');
 const tmp = tmpdir();

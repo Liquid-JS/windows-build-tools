@@ -1,4 +1,4 @@
-import * as fs from 'fs';
+import fs from 'fs';
 import { getBuildToolsInstallerPath } from './get-build-tools-installer-path';
 import { getPythonInstallerPath } from './get-python-installer-path';
 

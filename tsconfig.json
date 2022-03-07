@@ -6,6 +6,7 @@
     "target": "es2017",
     "alwaysStrict": true,
     "module": "commonjs",
+    "esModuleInterop": true,
     "moduleResolution": "node",
     "sourceMap": true,
     "baseUrl": ".",

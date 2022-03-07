@@ -1,4 +1,4 @@
-import * as fs from 'fs-extra';
+import fs from 'fs-extra';
 import { getWorkDirectory } from '../../src/utils/get-work-dir';
 
 jest.mock('fs-extra', () => ({

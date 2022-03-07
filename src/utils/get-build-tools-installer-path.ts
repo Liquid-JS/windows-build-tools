@@ -1,4 +1,4 @@
-import * as path from 'path';
+import path from 'path';
 
 import { BUILD_TOOLS } from '../constants';
 import { getWorkDirectory } from './get-work-dir';

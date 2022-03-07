@@ -1,4 +1,4 @@
-import * as fs from 'fs';
+import fs from 'fs';
 import { cleanExistingLogFiles } from '../../src/utils/clean';
 
 const mockBuildToolsInstallerPath = 'C:\\Users\\test\\.windows-build=tools\buildTools.exe';

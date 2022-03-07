@@ -1,5 +1,5 @@
 import { EventEmitter } from 'events';
-import * as fs from 'fs-extra';
+import fs from 'fs-extra';
 
 import { IS_DRY_RUN } from '../constants';
 import { findVCCLogFile } from '../utils/find-logfile';
@@ -9,10 +9,10 @@ const debug = require('debug')('windows-build-tools');
 
 export class Tailer extends EventEmitter {
   public logFile: string;
-  public encoding: string;
+  public encoding: BufferEncoding;
   public tailInterval;
 
-  constructor(logfile: string, encoding: string = 'utf8') {
+  constructor(logfile: string, encoding: BufferEncoding = 'utf8') {
     super();
 
     this.logFile = logfile;

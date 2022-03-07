@@ -1,4 +1,4 @@
-import * as path from 'path';
+import path from 'path';
 
 import { PYTHON } from '../constants';
 import { getWorkDirectory } from './get-work-dir';

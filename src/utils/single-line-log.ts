@@ -1,4 +1,4 @@
-import * as stringWidth from 'string-width';
+import stringWidth from 'string-width';
 
 const MOVE_LEFT = Buffer.from('1b5b3130303044', 'hex').toString();
 const MOVE_UP = Buffer.from('1b5b3141', 'hex').toString();
